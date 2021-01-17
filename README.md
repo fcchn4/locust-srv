@@ -24,3 +24,15 @@ $ pip freeze > requirements.txt
 ```bash
 $ pip install -r requirements.txt
 ```
+
+## Clone repository 
+
+```bash
+
+```
+
+## Run locust project
+
+```bash
+
+```
