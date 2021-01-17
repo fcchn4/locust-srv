@@ -28,11 +28,14 @@ $ pip install -r requirements.txt
 ## Clone repository 
 
 ```bash
-
+$ git clone git@github.com:fcchn4/locust-srv.git
 ```
 
 ## Run locust project
 
 ```bash
-
+## First option
+$ locust
+## or 
+locust -f locustfile.py
 ```
