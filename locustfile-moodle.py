@@ -8,8 +8,15 @@ class QuickstartUser(HttpUser):
 
     @task
     def hello_world(self):
-        self.client.get("/hello")
-        self.client.get("/world")
+        self.client.get("/admin")
+        self.client.get("/analytics")
+        self.client.get("/auth")
+        self.client.get("/backup")
+        self.client.get("/cache")
+        self.client.get("/local")
+        self.client.get("/report")
+        self.client.get("/user")
+        self.client.get("/privacy")
 
     @task(3)
     def view_item(self):
