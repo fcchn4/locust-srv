@@ -22,6 +22,9 @@ $ pip freeze > requirements.txt
 ## Install Requirements
 
 ```bash
+## Install Locust
+$ pip install locust
+## or 
 $ pip install -r requirements.txt
 ```
 
